@@ -1,4 +1,5 @@
-#include <stdioh>
+#include <stdio>
+
 /**
 
  * main - entry point
@@ -16,4 +17,3 @@ int main(void)
 	return (0);
 
 }
-
