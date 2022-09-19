@@ -1,3 +1,4 @@
+#include "main.h"
 #include <string.h>
 
 /**
@@ -6,7 +7,7 @@
  */
 
 void puts_half(char *str)
-void _putchar()
+
 {
 	int x, y, i;
 
