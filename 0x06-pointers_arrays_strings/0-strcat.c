@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcatt - concatenatess the sting pounted to by @src to
+ * _strcat - concatenatess the sting pounted to by @src to
  * the end of the sting pointed to by @dest
  * @dest: String that will be appended
  * @src: String to be concatenated upon
@@ -13,7 +13,7 @@ char *_strcat(char *dest, char *src)
 {
 int index = 0, dest_len = 0;
 
-	while (dest[inde++])
+	while (dest[index++])
 		dest_len++;
 
 	for (index = 0; src[index]; index++)
